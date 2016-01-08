@@ -10,6 +10,12 @@ namespace Try_it_Out_pg43
     {
         static void Main(string[] args)
         {
+            int a = 5;
+            int b = 6;
+            double area = .5*a*b;
+            Console.WriteLine(area);
+            Console.ReadKey();
         }
     }
 }
+

@@ -10,6 +10,8 @@ namespace Try_it_Out_pg14
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
+
         }
     }
 }
