@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,12 +20,12 @@ namespace Try_it_Out_pg72
             var secondNumber = Int32.Parse(Console.ReadLine());
 
             var answer = Resultant(numberOne, secondNumber, operation);
-            Console.WriteLine("answer of " + numberOne + " " + operation + " " + secondNumber + " " + answer);
+            Console.WriteLine("answer of " + numberOne + " " + operation + " " + secondNumber + " "+ answer);
         }
 
         public static int Resultant(int numberOne, int secondNumber, string operation)
         {
-            int Answer = 0;
+            int answer = 0;
 
             switch (operation)
             {
@@ -46,7 +47,7 @@ namespace Try_it_Out_pg72
 
 
             }
-            return Answer;
+            return answer;
         }
            // i am as lost as last years easter egg what am i missing? this is the first one that i had to go look at your github to add some stuff i
            // did not know that i needed please help!
