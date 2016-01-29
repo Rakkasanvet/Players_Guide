@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace Try_it_Out_pg78
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            for (int row = 0; row < 10; row++)
+
+            {
+                for (int column = 0; column < row + 1; column++)
+                {
+                    Console.WriteLine("*");
+                }
+                Console.WriteLine();
+                // this is copied verbatum from the book for the example before the try it out. wht does mine not build out to the right?
+            }
+
         }
     }
 }
